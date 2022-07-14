@@ -9,7 +9,7 @@ internal class PlayerViewModel(private val repository: String) : ViewModel() {
 
     fun testRequest() {
         viewModelScope.launch {
-            Log.i("ASDASDASDASDASDASD", "$repository")
+            Log.i("ASDASDASDASDASDASD", "hohohoh")
         }
     }
 }
