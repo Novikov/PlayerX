@@ -26,5 +26,6 @@ class PlayerFragment : Fragment(R.layout.player_fragment) {
 
     companion object {
         fun newInstance() = PlayerFragment()
+        const val KOKOKO = "KOKOKO"
     }
 }
